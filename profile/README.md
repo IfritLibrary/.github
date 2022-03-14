@@ -58,6 +58,11 @@
 * ゲーム内で使うデータを管理する
 * json形式でデータの形式を管理、ScriptableObjectで実際のゲーム内で使えるデータの作成をサポート
 
+## SoundEventLink
+### Dependency
+* DataSheet
+### 内容
+* ScriptableObjectSheetMasterMemoryの上に載せていたものをDataSheetに移行
 
 # 構想だけのTODO
 ## UnityのUIの上に乗せるUIライブラリ

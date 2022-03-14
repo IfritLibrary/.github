@@ -3,13 +3,13 @@ name: TOC Generator
 on:
   push:
     paths:
-      - 'README.md'
+      - 'profile/README.md'
 
 jobs:
   generateTOC:
     name: TOC Generator
     runs-on: ubuntu-latest
     steps:
-      - uses: technote-space/toc-generator@v2.4.0
+      - uses: technote-space/toc-generator@v4
         with:
-          TOC_TITLE: "## Table of Contents"
+          TARGET_PATHS: "profile/README.md"

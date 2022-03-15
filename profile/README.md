@@ -67,10 +67,12 @@
 ### 内容
 * ScriptableObjectSheetMasterMemoryの上に載せていたものをDataSheetに移行
 
+## NetworkLibrary
+### 内容
+* 検証段階
+* UnityTransformの上に乗っけて超多人数がアクセス出来るようにする検証
+* 目標は狭い空間に100人、広いワールドで1000人
+
 # 構想だけのTODO
 ## UnityのUIの上に乗せるUIライブラリ
 ## Scene管理ライブラリ
-## ネットワーク通信ライブラリ
-* リアルタイム通信
-* NetcodeForGameObject(NGO)の上に乗っける・・・？
-  * もしくはトランスポートライブラリのみ他を使ってNetcode周りは自作する・・・？
